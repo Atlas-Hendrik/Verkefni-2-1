@@ -5,6 +5,21 @@
         <title>Papa's Pizzaria</title>
     </head>
     <body>
+        <a href="../index.html"> Til baka á forsíðu</a>
+        <h1>Viltu panta?</h1>
+        <p>Viltu panta borð? eða panta heim?</p>
+
+        <h3>Panta borð</h3>
+        <label for="time">Hvenær:</label>
+        <input type="time" id="time" name="time" min="10:00" max="21:00" required />
         
+        <br>
+        <label for="many">Hversu margir eru að koma?</label>
+        <input type="number" id="many" name="many" min="1" max="10" />
+
+        <br>
+        <label for="auka">Eitthvað fleira sem þú vilt koma á framfæri?:</label>
+        <input type="text" id="auka" name="auka" required minlength="4" maxlength="400" size="100" />
+
     </body>
 </html>
